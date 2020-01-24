@@ -1,0 +1,5 @@
+#coding=gbk
+import arcpy
+from arcpy import env
+env.workspace = r'D:\Documents\ArcGIS\Ë«ÆÀ¼Û.gdb'
+arcpy.AddField_management("slope_Reclass", "ÈÕÎÄ", "SHORT", 9)
